@@ -1,17 +1,14 @@
 <script setup>
-import { ref } from 'vue'
-import { useRoute } from 'vue-router'
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
+  <div class="container p-5">
+    <div class="row">
+      <h1 class="col-12 text-center">Welcome to Vuetact</h1>
+      <hr>
+    </div>
+  </div>
 </template>
 
 <style scoped lang="scss">
